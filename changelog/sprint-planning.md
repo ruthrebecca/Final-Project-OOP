@@ -1,7 +1,7 @@
 # Sprint Planning 
 | 17/11/2020
 
-### Team (Insert your name)
+### Team (Erdiway)
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190054  | Ruth Rebecca Ovelin    |
