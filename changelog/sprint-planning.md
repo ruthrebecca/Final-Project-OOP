@@ -11,33 +11,32 @@
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids | Asignee | 
-| 2.2 | Implementasi OOP dasar| Asignee |
-| 3.3 | Mengacak angka (clue) | Asignee | 
-| 4.4 | Tampilan Difficulty| Asignee |
-| 5.5 | Tampilan string kosong | Asignee |
-| 6.6 | Set dan Tampilan angka clue (tidak bisa diganti)| Asignee |
-| 7.7 | Mengecek angka input benar atau salah| Asignee |
-| 8.8 | Highlight ubin yang bernilai sama di 1 baris, 1 kolom, atau 1 subgrid| Asignee |
-| 9.9 | Membuat button reset/restart| Asignee |
-| 10.10 | Finishing| Asignee |
+| 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids | Dimas | 
+| 2.2 | Implementasi OOP dasar| Yuela |
+| 3.3 | Mengacak angka (clue) | Ovelin | 
+| 4.4 | Tampilan Difficulty| Dimas |
+| 5.5 | Tampilan string kosong | Yuela |
+| 6.6 | Set dan Tampilan angka clue (tidak bisa diganti)| Ovelin |
+| 7.7 | Mengecek angka input benar atau salah| Dimas |
+| 8.8 | Highlight ubin yang bernilai sama di 1 baris, 1 kolom, atau 1 subgrid| Dimas |
+| 9.9 | Membuat button reset/restart| Yuela |
+| 10.10 | Finishing| Yuela |
 
 ## Opsional
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 11.11 | Menu Bar | Asignee | 
-| 12.12 | Timer| Asignee |
-| 13.13 | Action Pause/Resume | Asignee | 
-| 14.14 | Menu Highscore dengan nama pemain | Asignee |
+| 11.11 | Menu Bar | Ovelin | 
+| 12.12 | Timer | Ovelin |
+| 13.13 | Action Pause/Resume | Dimas | 
+| 14.14 | Menu Highscore dengan nama pemain | Yuela |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids) | Asignee | 
-| 2.2 | Implementasi OOP dasar| Asignee |
-| 3.3 | Mengacak angka (clue) | Asignee | 
-| 4.4 | Tampilan Difficulty| Asignee |
-| 5.5 | Tampilan string kosong | Asignee |
+| 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids) | Dimas | 
+| 2.2 | Implementasi OOP dasar| Yuela |
+| 3.3 | Mengacak angka (clue) | Ovelin | 
+
 
 ## Retrospective 
 
