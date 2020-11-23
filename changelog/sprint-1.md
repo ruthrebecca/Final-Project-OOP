@@ -11,19 +11,19 @@
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| 3             | n             |
+| 3             | 1             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Membuat tampilan grid 9x9 (dengan subgrid 3x3) | Dimas Rahadian |  |
-| 1.2 | Implementasi OOP dasar | Yuela Thahira |  |
-| 1.3 | Mengacak angka (clue) | Ruth Rebecca Ovelin |  |
+| 1.1 | Membuat tampilan grid 9x9 (dengan subgrid 3x3) | Dimas Rahadian | Done |
+| 1.2 | Implementasi OOP dasar | Yuela Thahira | Proses |
+| 1.3 | Mengacak angka (clue) | Ruth Rebecca Ovelin | Proses |
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Kelompok masih dalam proses eksplorasi dan mencari referensi permainan Sudoku
 
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
