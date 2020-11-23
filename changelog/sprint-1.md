@@ -1,24 +1,25 @@
 # Scrum Report (Sprint 1)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 17/11/2020 to 23/11/2020
 
-## Team (Insert your name)
+## Team Erwaydi
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190054  | Ruth Rebecca Ovelin    |
+| 140810190064  | Yuela Thahira    |
+| 140810190076  | Dimas Rahadian Nugraha |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
 | ------------- |-------------- |
-| n             | n             |
+| 3             | n             |
 
 ## Sprint 1 Backlog
 
 | ID  | Title/Desc | Asignee | Status |
 | --- | ---------- | ------- | ------ |
-| 1.1 | Preparing the x | Jane Doe | DONE |
-| 1.2 | Make the x | John Doe | FAILED |
+| 1.1 | Membuat tampilan grid 9x9 (dengan subgrid 3x3) | Dimas Rahadian |  |
+| 1.2 | Implementasi OOP dasar | Yuela Thahira |  |
+| 1.3 | Mengacak angka (clue) | Ruth Rebecca Ovelin |  |
 
 ## Retrospective 
 
@@ -27,5 +28,5 @@ Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian t
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Preparing the x | Jane Doe | 
+| 2.1 | Tampilan Dificulity |  | 
 | 2.2 | Make the x | John Doe | 
