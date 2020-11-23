@@ -11,15 +11,15 @@
 ## Sprint Backlog Keseluruhan 
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Tampilan grid 9x9 (dengan subgrid 3x3) | Asignee | 
+| 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids | Asignee | 
 | 2.2 | Implementasi OOP dasar| Asignee |
-| 3.3 | Mengacak angka | Asignee | 
+| 3.3 | Mengacak angka dengan syarat unik | Asignee | 
 | 4.4 | Tampilan Difficulty| Asignee |
 | 5.5 | Tampilan string kosong dan angka clue| Asignee |
 | 6.6 | Set angka yang tidak dimasking tidak bisa diganti| Asignee |
-| 7.7 | Cek angka input benar atau salah| Asignee |
+| 7.7 | Mengecek angka input benar atau salah| Asignee |
 | 8.8 | Highlight ubin yang bernilai sama di 1 baris, 1 kolom, atau 1 subgrid| Asignee |
-| 9.9 | Tampilan button reset/restart| Asignee |
+| 9.9 | Membuat button reset/restart| Asignee |
 | 10.10 | Penyempurnaan Tampilan| Asignee |
 
 ## Opsional
@@ -28,14 +28,14 @@
 | 11.11 | Menu Bar | Asignee | 
 | 12.12 | Timer| Asignee |
 | 13.13 | Action Pause/Resume | Asignee | 
-| 14.14 | Menu Highscore | Asignee |
+| 14.14 | Menu Highscore dengan nama pemain | Asignee |
 
 ## Sprint Backlog Plan (Sprint 1)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 1.1 | Tampilan grid 9x9 (dengan subgrid 3x3) | Asignee | 
+| 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids) | Asignee | 
 | 2.2 | Implementasi OOP dasar| Asignee |
-| 3.3 | Mengacak angka | Asignee | 
+| 3.3 | Mengacak angka dengan syarat unik | Asignee | 
 | 4.4 | Tampilan Difficulty| Asignee |
 | 5.5 | Tampilan string kosong dan angka clue| Asignee |
 
