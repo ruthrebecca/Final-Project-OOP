@@ -19,8 +19,9 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Belajar mengenai Sudoku dan mencari referensi
 
 - **[Sprint 1](changelog/sprint-1.md) - (17/11/2020 - 23/11/2020)** 
-   - Short changes 1
-   - Short changes 2
+   - Membuat tampilan grid 9x9 (dengan subgrid 3x3)
+   - Implementasi OOP dasar
+   - Mengacak angka (clue)
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
    - Short changes 1
