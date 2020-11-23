@@ -13,14 +13,14 @@
 | --- | ---------- | ------- | 
 | 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids | Asignee | 
 | 2.2 | Implementasi OOP dasar| Asignee |
-| 3.3 | Mengacak angka dengan syarat unik | Asignee | 
+| 3.3 | Mengacak angka (clue) | Asignee | 
 | 4.4 | Tampilan Difficulty| Asignee |
-| 5.5 | Tampilan string kosong dan angka clue| Asignee |
-| 6.6 | Set angka yang tidak dimasking tidak bisa diganti| Asignee |
+| 5.5 | Tampilan string kosong | Asignee |
+| 6.6 | Set dan Tampilan angka clue (tidak bisa diganti)| Asignee |
 | 7.7 | Mengecek angka input benar atau salah| Asignee |
 | 8.8 | Highlight ubin yang bernilai sama di 1 baris, 1 kolom, atau 1 subgrid| Asignee |
 | 9.9 | Membuat button reset/restart| Asignee |
-| 10.10 | Penyempurnaan Tampilan| Asignee |
+| 10.10 | Finishing| Asignee |
 
 ## Opsional
 | ID  | Title/Desc | Asignee | 
@@ -35,9 +35,9 @@
 | --- | ---------- | ------- | 
 | 1.1 | Membentuk (9 x 9) grid ubin dengan (3 x 3) sub-grids) | Asignee | 
 | 2.2 | Implementasi OOP dasar| Asignee |
-| 3.3 | Mengacak angka dengan syarat unik | Asignee | 
+| 3.3 | Mengacak angka (clue) | Asignee | 
 | 4.4 | Tampilan Difficulty| Asignee |
-| 5.5 | Tampilan string kosong dan angka clue| Asignee |
+| 5.5 | Tampilan string kosong | Asignee |
 
 ## Retrospective 
 
