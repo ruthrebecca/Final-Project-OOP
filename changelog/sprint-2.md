@@ -26,7 +26,7 @@
 
 ## Retrospective 
 
-Sprint kemarin dianggap terlalu sedikit sehingga diperlukan adanya penyesuaian tugas. Lorem ipsum dolor sit amet
+Sprint kemarin belum matang sehingga diperlukan adanya penyesuaian tugas. Tampilan dan difficulty belum sempurna.
 
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
