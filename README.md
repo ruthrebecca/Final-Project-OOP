@@ -24,8 +24,10 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Mengacak angka (clue)
 
 - **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+   - Menampilkan soal (clue) beserta kolom jawaban
+   - Membuat tombol submit
+   - Mengecek jawaban yang telah diinput
+   - Meenampilkan kunci jawaban
    
 - **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
    - Short changes 1
