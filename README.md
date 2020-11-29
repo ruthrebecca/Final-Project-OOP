@@ -4,7 +4,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Sudoku Game adalah sebuah teka-teki angka yang pada umumnya terdiri dari 3 sub-kotak yang berukuran 3x3 (kotak berukuran total 9x9). Aturan dalam permainan Sudoku ini adalah pemain harus mengisi teka-teki dengan aturan tidak boleh terdapat angka yang sama pada satu baris, atau satu kolom, atau satu sub-kotak yang sama. Project Sudoku Game ini menggunakan java GUI (Graphic User Interface) dalam tampilannya dan menggunakan konsep OOP (Object Oriented Programming).
+**Sudoku Game adalah sebuah teka-teki angka yang pada umumnya terdiri dari 3 sub-kotak yang berukuran 3x3 (kotak berukuran total 9x9). Aturan dalam permainan Sudoku ini adalah pemain harus mengisi teka-teki dengan aturan tidak boleh terdapat angka yang sama pada satu baris, atau satu kolom, atau satu sub-kotak yang sama. Project Sudoku Game ini menggunakan java GUI (Graphic User Interface) dalam tampilannya dan menggunakan konsep OOP (Object Oriented Programming).**
 
 ## Credits
 | NPM           | Name        |
