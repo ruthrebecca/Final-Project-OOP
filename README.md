@@ -1,10 +1,10 @@
-# Project Name
+# Sudoku Game
 
 This repository is a final project (Java GUI) from Object-Oriented Programming Class, Teknik Informatika Universitas Padjadjaran. 
 
 [Challenge Guidelines](challenge-guideline.md)
 
-**Please create a description for this project here**
+**Sudoku Game adalah sebuah teka-teki angka yang pada umumnya terdiri dari 3 sub-kotak yang berukuran 3x3 (kotak berukuran total 9x9). Aturan dalam permainan Sudoku ini adalah pemain harus mengisi teka-teki dengan aturan tidak boleh terdapat angka yang sama pada satu baris, atau satu kolom, atau satu sub-kotak yang sama. Project Sudoku Game ini menggunakan java GUI (Graphic User Interface) dalam tampilannya dan menggunakan konsep OOP (Object Oriented Programming). **
 
 ## Credits
 | NPM           | Name        |
@@ -23,7 +23,7 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Implementasi OOP dasar
    - Mengacak angka (clue)
 
-- **[Sprint 2](changelog/sprint-2.md) - (date from x until x)** 
+- **[Sprint 2](changelog/sprint-2.md) - (24/11/2020 - 30/11/2020)** 
    - Menampilkan soal (clue) beserta kolom jawaban
    - Membuat tombol submit
    - Mengecek jawaban yang telah diinput
