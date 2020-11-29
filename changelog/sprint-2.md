@@ -1,7 +1,7 @@
 # Scrum Report (Sprint 2)
 | From 24/11/2020 to 30/11/2020
 
-## Team (Erdiway)
+## Team (Erwaydi)
 | NPM           | Name        |
 | ------------- |-------------|
 | 140810190054  | Ruth Rebecca Ovelin    |
