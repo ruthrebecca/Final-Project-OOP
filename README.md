@@ -34,8 +34,8 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Short changes 2
 
 ## Running The App
-
-TO;DO with steps
+   - Compile file GUI.java (javac GUI.java)
+   - Jalankan file program GUI (java GUI)
 
 ## Classes Used
 
