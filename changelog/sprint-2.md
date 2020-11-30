@@ -33,5 +33,5 @@ Sprint kemarin belum matang sehingga diperlukan adanya penyesuaian tugas. Tampil
 | --- | ---------- | ------- | 
 | 3.1 | Memperbaiki tampilan / interface (finishing) | Ruth Rebecca Ovelin | 
 | 3.2 | Menambah tampilan difficulty | Dimas Rahadian | 
-| 3.4 | Menambah tombol restart & reset | Yuela Thahira |
-| 3.5 | Memberi highlight pada angka yang terdapat pada 1 baris atau 1 kolom atau 1 kotak yang sama | Dimas Rahadian |
+| 3.3 | Menambah tombol restart & reset | Yuela Thahira |
+| 3.4 | Memberi highlight pada angka yang terdapat pada 1 baris atau 1 kolom atau 1 kotak yang sama | Dimas Rahadian |
