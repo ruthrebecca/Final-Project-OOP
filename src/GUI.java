@@ -157,7 +157,7 @@ public class GUI implements ActionListener {
 			for (int j = 0; j < 9; j++)
 				System.out.print(array[i][j] + " ");
 			System.out.println();
-		} // line 138-142 to show answers on cd
+		} // Line 156-160 to show answers on cd
 		new GUI();
 	}
 
