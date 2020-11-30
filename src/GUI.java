@@ -9,17 +9,33 @@ public class GUI implements ActionListener {
 
 	JButton submit = new JButton("Submit");
 	JLabel CorrOrWrong = new JLabel("Start!", JLabel.CENTER);
+	
 	private static int[][] array;
 	private static int[][] sudoku;
 	private static JTextField[][] index = new JTextField[9][9];
 
 	public GUI() {
 		JFrame frame = new JFrame("Sudoku");
+		JMenuBar menu = new JMenuBar();
+		JMenu difficulty = new JMenu("Difficulty");
+		JMenu reset = new JMenu("Reset");
+		JMenu newgame = new JMenu("New Game");
+		menu.add(difficulty);
+		menu.add(reset);
+		menu.add(newgame);
+		JMenuItem easy = new JMenuItem("Easy");
+		difficulty.add(easy);
+		JMenuItem medium = new JMenuItem("Medium");
+		difficulty.add(medium);
+		JMenuItem hard = new JMenuItem("Hard");
+		difficulty.add(hard);
+		
 		CorrOrWrong.setFont(new Font("Verdana", Font.PLAIN, 16));
 		submit.setFont(new Font("Verdana", Font.PLAIN, 16));
 		// frame.getContentPane().add(draw);
 		frame.setSize(500, 500);
 		submit.addActionListener(this);
+		
 		JPanel board = new JPanel();
 		JPanel panel = new JPanel();
 		board.setLayout(new GridLayout(9, 9));
@@ -34,6 +50,8 @@ public class GUI implements ActionListener {
 		frame.getContentPane().add(board);
 		frame.getContentPane().add(submit, "South");
 		frame.getContentPane().add(CorrOrWrong, "North");
+		frame.setJMenuBar(menu);
+		frame.setSize(500, 500);
 		frame.setVisible(true);
 	}
 
