@@ -31,7 +31,10 @@ Sprint kemarin belum matang sehingga diperlukan adanya penyesuaian tugas. Tampil
 ## Next Sprint Backlog (Sprint 3)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 3.1 | Memperbaiki tampilan / interface (finishing) | Ruth Rebecca Ovelin | 
-| 3.2 | Menambah tampilan difficulty | Dimas Rahadian | 
-| 3.3 | Menambah tombol restart & reset | Yuela Thahira |
-| 3.4 | Memberi highlight pada angka yang terdapat pada 1 baris atau 1 kolom atau 1 kotak yang sama | Dimas Rahadian |
+| 3.1 | Memperbaiki tampilan / interface (finishing) | Yuela Thahira |  
+| 3.2 | Menambah tombol restart & reset | Yuela Thahira |
+| 3.3 | Memberi highlight pada angka yang terdapat pada 1 baris atau 1 kolom atau 1 kotak yang sama | Dimas Rahadian |
+| 3.4 | Menambah menu bar | Ruth Rebecca Ovelin |
+| 3.5 | Menambah timer | Ruth Rebecca Ovelin |
+| 3.6 | Menambah action pause | Dimas Rahadian |
+| 3.7 | Menu high score dengan nama pemain | Yuela Thahira |
