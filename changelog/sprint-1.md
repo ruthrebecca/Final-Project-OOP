@@ -28,5 +28,9 @@ Kelompok masih dalam proses eksplorasi dan mencari referensi permainan Sudoku
 ## Next Sprint Backlog (Sprint 2)
 | ID  | Title/Desc | Asignee | 
 | --- | ---------- | ------- | 
-| 2.1 | Tampilan Dificulity |  | 
-| 2.2 | Make the x | John Doe | 
+| 2.1 | Implementasi OOP Dasar | Yuela Thahira |
+| 2.2 | Mengacak dan menampilkan angka (clue) | Ruth Rebecca Ovelin |
+| 2.3 | Membuat tampilan difficulty | Ruth Rebecca Ovelin |
+| 2.4 | Membuat tombol submit | Dimas Rahadian |
+| 2.5 | Membuat tampilan string kosong (kolom isi) | Yuela Thahira |
+| 2.6 | Mengecek jawaban yang diinput | Dimas Rahadian |
