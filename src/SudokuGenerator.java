@@ -5,150 +5,160 @@ import java.util.Random;
 import java.text.Format;
 
 public class SudokuGenerator {
-	private static Random rnd = new Random();
+ private static Random rnd = new Random();
 
-	public static void main(String[] args) {
+ public static void main(String[] args) {
 
-		int[][] board;
-		do {
-			board = new int[9][9];
-			board = SudokuGenerator.create(board, 0, 0);
-		} while (board == null);
-		// Sudoku.toConsole(board);
-		SudokuGenerator.createTXTFile(board);
+  int[][] board;
+  do {
+   board = new int[9][9];
+   board = SudokuGenerator.create(board, 0, 0);
+  } while (board == null);
+  // Sudoku.toConsole(board);
+  SudokuGenerator.createTXTFile(board);
 
-	}// end main
+ }// end main
 
-	private static int[][] create(int[][] ray, int row, int col) {
-		try {
-			// Variable used to detect if the sudoku puzzle is stuck
-			int countLoop = 0;
-			do {
-				if (countLoop == 10) {
-					ray = cleanRow(ray, row);
-					col = 0;
-				}
-				ray[row][col] = rnd.nextInt(9) + 1; // return a number from 1 to 9.
-				countLoop++;
-			} while (!(testSquare(ray, row, col) && testColRow(ray, row, col)));
-			countLoop = 0;
+ private static int[][] create(int[][] ray, int row, int col) {
+  try {
+   // Variable used to detect if the sudoku puzzle is stuck
+   int countLoop = 0;
+   do {
+    if (countLoop == 10) {
+     ray = cleanRow(ray, row);
+     col = 0;
+    }
+    ray[row][col] = rnd.nextInt(9) + 1; // return a number from 1 to 9.
+    countLoop++;
+   } while (!(testSquare(ray, row, col) && testColRow(ray, row, col)));
+   countLoop = 0;
 
-			// Base case: if the puzzle has been fully solved, return the provided array.
-			if (row == 8 && col == 8)
-				return ray;
+   // Base case: if the puzzle has been fully solved, return the provided array.
+   if (row == 8 && col == 8)
+    return ray;
 
-			// Restart Row
-			if (col == 8)
-				return create(ray, row + 1, 0);
+   // Restart Row
+   if (col == 8)
+    return create(ray, row + 1, 0);
 
-			// Restart Col
-			return create(ray, row, col + 1);
-		} catch (StackOverflowError e) {
-			return null;
-		} catch (NullPointerException e) {
-			return null;
-		}
-	}// end method
+   // Restart Col
+   return create(ray, row, col + 1);
+  } catch (StackOverflowError e) {
+   return null;
+  } catch (NullPointerException e) {
+   return null;
+  }
+ }// end method
 
-	private static boolean testColRow(int[][] ray, int row, int col) {
-		// test the column
-		for (int r = 0; r < row; r++) {
-			if (ray[row][col] == ray[r][col])
-				return false;
-		} // end for
-			// test the row
-		for (int c = 0; c < col; c++) {
-			if (ray[row][col] == ray[row][c])
-				return false;
-		} // end for
-		return true;
-	}// end method
+ private static boolean testColRow(int[][] ray, int row, int col) {
+  // test the column
+  for (int r = 0; r < row; r++) {
+   if (ray[row][col] == ray[r][col])
+    return false;
+  } // end for
+   // test the row
+  for (int c = 0; c < col; c++) {
+   if (ray[row][col] == ray[row][c])
+    return false;
+  } // end for
+  return true;
+ }// end method
 
-	private static boolean testSquare(int[][] ray, int row, int col) {
-		// Starting values of each element
-		int rStart = 0, cStart = 0;
-		// setting the values to each element
-		if (row / 3 == 0 && col / 3 == 0) {
-			rStart = 0;
-			cStart = 0;
-		} // A
-		else if (row / 3 == 0 && col / 3 == 1) {
-			rStart = 0;
-			cStart = 3;
-		} // B
-		else if (row / 3 == 0 && col / 3 == 2) {
-			rStart = 0;
-			cStart = 6;
-		} // C
-		else if (row / 3 == 1 && col / 3 == 0) {
-			rStart = 3;
-			cStart = 0;
-		} // D
-		else if (row / 3 == 1 && col / 3 == 1) {
-			rStart = 3;
-			cStart = 3;
-		} // E
-		else if (row / 3 == 1 && col / 3 == 2) {
-			rStart = 3;
-			cStart = 6;
-		} // F
-		else if (row / 3 == 2 && col / 3 == 0) {
-			rStart = 6;
-			cStart = 0;
-		} // G
-		else if (row / 3 == 2 && col / 3 == 1) {
-			rStart = 6;
-			cStart = 3;
-		} // H
-		else {
-			rStart = 6;
-			cStart = 6;
-		} // I
+ private static boolean testSquare(int[][] ray, int row, int col) {
+  // Starting values of each element
+  int rStart = 0, cStart = 0;
+  // setting the values to each element
+  if (row / 3 == 0 && col / 3 == 0) {
+   rStart = 0;
+   cStart = 0;
+  } // A
+  else if (row / 3 == 0 && col / 3 == 1) {
+   rStart = 0;
+   cStart = 3;
+  } // B
+  else if (row / 3 == 0 && col / 3 == 2) {
+   rStart = 0;
+   cStart = 6;
+  } // C
+  else if (row / 3 == 1 && col / 3 == 0) {
+   rStart = 3;
+   cStart = 0;
+  } // D
+  else if (row / 3 == 1 && col / 3 == 1) {
+   rStart = 3;
+   cStart = 3;
+  } // E
+  else if (row / 3 == 1 && col / 3 == 2) {
+   rStart = 3;
+   cStart = 6;
+  } // F
+  else if (row / 3 == 2 && col / 3 == 0) {
+   rStart = 6;
+   cStart = 0;
+  } // G
+  else if (row / 3 == 2 && col / 3 == 1) {
+   rStart = 6;
+   cStart = 3;
+  } // H
+  else {
+   rStart = 6;
+   cStart = 6;
+  } // I
 
-		// test cases
-		for (int r = rStart; r < (rStart + 3); r++) {
-			for (int c = cStart; c < (cStart + 3); c++) {
-				if (!(row == r && col == c) && ray[row][col] == ray[r][c])
-					return false;
-			}
-		}
-		return true;
-	}// end method
+  // test cases
+  for (int r = rStart; r < (rStart + 3); r++) {
+   for (int c = cStart; c < (cStart + 3); c++) {
+    if (!(row == r && col == c) && ray[row][col] == ray[r][c])
+     return false;
+   }
+  }
+  return true;
+ }// end method
 
-	public static void toConsole(int[][] ray) {
-		for (int r = 0; r < 9; r++) {
-			for (int c = 0; c < 9; c++) {
-				System.out.print(ray[r][c] + " ");
-			} // for2
-			System.out.println();
-		} // end for
-	}// end toConsole
+ public static void toConsole(int[][] ray) {
+  for (int r = 0; r < 9; r++) {
+   for (int c = 0; c < 9; c++) {
+    System.out.print(ray[r][c] + " ");
+   } // for2
+   System.out.println();
+  } // end for
+ }// end toConsole
 
-	// Cleans the row when the sudoku puzzle is stuck
-	private static int[][] cleanRow(int[][] ray, int rInt) {
-		int[][] newAr = new int[9][9];
-		for (int c = 0; c < 9; c++) {
-			for (int r = 0; r < rInt; r++) {
-				newAr[r][c] = ray[r][c];
-			} // end for2
-		} // end for1
-		return newAr;
-	}// end cleanRow
+ /*
+ public void clear()
+ {
+  if(write(board))
+  {
+   super.setText("");
+  }
+ }
+ */
 
-	public static void createTXTFile(int[][] ray) {
-		try {
-			PrintWriter writer = new PrintWriter("sudoku.txt", "UTF-8");
-			for (int r = 0; r < 9; r++) {
-				for (int c = 0; c < 9; c++) {
-					writer.print(ray[r][c] + " ");
-				} // end for2
-				writer.println("");
-			} // end for1
-			writer.close();
-		} catch (FileNotFoundException e) {
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
-			e.printStackTrace();
-		}
-	}
+ // Cleans the row when the sudoku puzzle is stuck
+ private static int[][] cleanRow(int[][] ray, int rInt) {
+  int[][] newAr = new int[9][9];
+  for (int c = 0; c < 9; c++) {
+   for (int r = 0; r < rInt; r++) {
+    newAr[r][c] = ray[r][c];
+   } // end for2
+  } // end for1
+  return newAr;
+ }// end cleanRow
+
+ public static void createTXTFile(int[][] ray) {
+  try {
+   PrintWriter writer = new PrintWriter("sudoku.txt", "UTF-8");
+   for (int r = 0; r < 9; r++) {
+    for (int c = 0; c < 9; c++) {
+     writer.print(ray[r][c] + " ");
+    } // end for2
+    writer.println("");
+   } // end for1
+   writer.close();
+  } catch (FileNotFoundException e) {
+   e.printStackTrace();
+  } catch (UnsupportedEncodingException e) {
+   e.printStackTrace();
+  }
+ }
 }// end class
