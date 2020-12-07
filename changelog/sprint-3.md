@@ -1,12 +1,12 @@
 # Scrum Report (Sprint 3)
-| From dd/mm/yyyy to dd/mm/yyyy
+| From 01/12/2020 to 06/12/2020
 
 ## Team (Insert your name)
 | NPM           | Name        |
 | ------------- |-------------|
-| 140810xx00xx  | John Doe    |
-| 140810xx00xx  | Jane Doe    |
-| 140810xx00xx  | Lorem Ipsum |
+| 140810190054  | Ruth Rebecca Ovelin    |
+| 140810190064  | Yuela Thahira    |
+| 140810190076  | Dimas Rahadian N |
 
 ## Sprint Overview
 | Planned (n)   | Completed (n) |
