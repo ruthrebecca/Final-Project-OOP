@@ -29,9 +29,14 @@ This repository is a final project (Java GUI) from Object-Oriented Programming C
    - Mengecek jawaban yang telah diinput
    - Meenampilkan kunci jawaban
    
-- **[Sprint 3](changelog/sprint-3.md) - (date from x until x)** 
-   - Short changes 1
-   - Short changes 2
+- **[Sprint 3](changelog/sprint-3.md) - (1/12/2020 - 7/12/2020)** 
+   - Memperbaiki tampilan / interface (finishing)
+   - Menambah tombol restart & reset   
+   - Memberi highlight pada angka yang terdapat pada 1 baris atau 1 kolom atau 1 kotak yang sama 
+   - Menambah menu bar
+   - Menambah timer  
+   - Menambah action pause 
+   - Menu high score dengan nama pemain 
 
 ## Running The App
    - Compile file GUI.java (javac GUI.java)
