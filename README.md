@@ -50,5 +50,11 @@ UML image here
 
 ## Notable Assumption and Design App Details
 
-![1607312779781](https://user-images.githubusercontent.com/61409523/101307774-d1aeee00-387a-11eb-86f9-a2980bf16099.jpg)
+   - Tampilan interface Sudoku akan muncul (grid 9 x 9 dengan subgrid 3 x 3 beserta menu dan tampilan lainnya)
+   - User dapat melakukan input angka terhadap grid yang editable sesuai dengan level, dimana semakin sulit levelnya maka semakin banyak pula grid/tile yang harus diisi
+   - Klik enter untuk memasukkan angka sekaligus memeriksa apakah inputan user sudah benar dan sesuai
+   - Jika sesuai, maka inputan user akan berwarna hijau. Namun jika sebaliknya, akan berwarna merah dan tile yang berisi angka yang sama dengan inputan user dalam 1 subgrid        akan dihighlight dengan warna merah
+   - Jumlah 'Cells remaining' akan terus berkurang beriringan dengan jumlah inputan user yang sesuai dengan jawaban
+   - Dalam permainan, user bisa mengakses pilihan menu (File dan Options). Pada menu File, user dapat restart game, reset jawaban, dan exit (keluar). Sedangkan pada menu          Options, user dapat mengganti level permainan (Easy, Medium, Hard)
+   - Setelah semua tile/grid terisi dengan benar dan tidak ada lagi 'remaining cells', maka permainan selesai dan akan muncul window dialog 'Congratulations'
 
